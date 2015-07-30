@@ -9,6 +9,10 @@ Se trata de un juego de preguntas y respuestas, con CSS adaptable a móviles, re
 4. Vistas parciales y marco
 5. CSS adaptable a móviles y PCs
 6. Despliegue en la nube (Heroku)
+7. Sequelize.js y SQLite
+8. Despliegue DB en Heroku
+9. Lista de preguntas
+10. Autoload
 
 ###Autor
 David Albaladejo
