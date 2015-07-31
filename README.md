@@ -20,6 +20,7 @@ Se trata de un juego de preguntas y respuestas, con CSS adaptable a móviles, re
 15. Crear comentario
 16. Autenticación y sesión
 17. Autorización
+18. Moderación de comentarios
 
 ###Autor
 David Albaladejo
