@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var partials = require('express-partials');
 var methodOverride = require('method-override');
 var session = require('express-session');
+var inactiveLogoutTime = 120000;
 
 var routes = require('./routes/index');
 
@@ -39,6 +40,24 @@ app.use(function(req,res,next) {
   next();
 });
 
+app.use(function(req, res, next){
+
+  var actualTime = Date.now();
+
+  if (req.session.user)
+  {
+     if ((actualTime - req.session.lastTime) > inactiveLogoutTime)
+     {
+       req.session.lastTime=actualTime;
+       res.redirect('/logout');
+     } else {
+       req.session.lastTime=actualTime;
+       next();
+     }
+  } else {
+    next();
+  }
+});
 app.use('/', routes);
 
 // catch 404 and forward to error handler
