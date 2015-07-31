@@ -50,7 +50,7 @@ sequelize.sync().then(function() {
       Quiz.bulkCreate([
                       { pregunta: 'Capital de Italia', respuesta: 'Roma', tema: 'geografia'},
                       { pregunta: 'Capital de España', respuesta: 'Madrid', tema: 'geografia'},
-                      { pregunta: '¿Quién descubrió América', respuesta: 'Cristóbal Colón', tema: 'humanidades'}
+                      { pregunta: '¿Quién descubrió América?', respuesta: 'Cristóbal Colón', tema: 'humanidades'}
                       ])
       .then(function(){console.log('Base de datos inicializada')});
     };

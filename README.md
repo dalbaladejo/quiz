@@ -21,6 +21,7 @@ Se trata de un juego de preguntas y respuestas, con CSS adaptable a móviles, re
 16. Autenticación y sesión
 17. Autorización
 18. Moderación de comentarios
+19. HTTPS - HTTP Seguro
 
 ###Autor
 David Albaladejo
