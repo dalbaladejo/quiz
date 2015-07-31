@@ -18,6 +18,7 @@ Se trata de un juego de preguntas y respuestas, con CSS adaptable a móviles, re
 13. Editar preguntas
 14. Borrar preguntas
 15. Crear comentario
+16. Autenticación y sesión
 
 ###Autor
 David Albaladejo
