@@ -3,6 +3,12 @@ Práctica del curso de JS y Node de **MiríadaX**.
 
 Se trata de un juego de preguntas y respuestas, con CSS adaptable a móviles, realizado en varios pasos.
 
+### Usuario y contraseña
+Se han dejado los usuarios y contraseñas que viene por defecto en las transparencias del curso:
+* admin: 1234
+* pepe: 5678
+
+### Lista de cambios
 1. Esqueleto del proyecto con express-generator
 2. Primera página y el favicon
 3. Primera pregunta
